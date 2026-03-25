@@ -52,3 +52,5 @@ let images = [
 ];
 images.forEach(image => {console.log(`${image.title}
 (${image.artist}, ${image.date})`)});
+
+// Este código utiliza un arreglo de objetos llamado images para almacenar información sobre obras de arte y luego recorre cada elemento mediante el método forEach, que actúa como un ciclo que visita cada cuadro uno por uno. Dentro de este ciclo, se utiliza una función de flecha que recibe el objeto actual (representado por la variable image) y ejecuta un console.log para imprimir sus propiedades en la consola. Para lograr el formato de salida, se emplean plantillas literales (delimitadas por las comillas invertidas `), las cuales permiten insertar directamente los valores de image.title, image.artist y image.date dentro de una cadena de texto, resultando en una lista organizada donde cada obra aparece con su autor y año entre paréntesis.
